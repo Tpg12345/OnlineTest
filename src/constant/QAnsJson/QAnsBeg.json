@@ -1,0 +1,50 @@
+{
+"Time":5,
+"Question":[
+    {
+        "Question":1,
+        "Ques": "Which of the following is the correct name of React.js?",
+        "Option1": "React",
+        "Option2": "ReactJs",
+        "Option3": "React.js",
+        "Option4": "All of the above",
+        "FinalAns": "4"
+    },
+    {
+        "Question":2,
+        "Ques": "Which of the following are the advantages of React.js?",
+        "Option1": "React.js can increase the application's performance with Virtual DOM.",
+        "Option2": "React.js can render both on client and server side.",
+        "Option3":"React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library",
+        "Option4": "All of the above",
+        "FinalAns": "4"
+    },
+    {
+    "Question":3,
+        "Ques": "Which of the following is not a disadvantage of React.js?",
+        "Option1": "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
+        "Option2": "The library of React.js is pretty large.",
+        "Option3": "The JSX in React.js makes code easy to read and write.",
+        "Option4": "The learning curve can be steep in React.js.",
+        "FinalAns": "3"
+    },
+    {
+        "Question":4,
+        "Ques": "Which of the following command is used to install create-react-app?",
+        "Option1": "npm install -g create-react-app",
+        "Option2": "npm install create-react-app",
+        "Option3": "npm install -f create-react-app",
+        "Option4": "install -g create-react-app",
+        "FinalAns": "1"
+    },
+    {
+        "Question":5,
+        "Ques": "What of the following is used in React.js to increase performance?",
+        "Option1": "Original DOM",
+        "Option2": "Virtual DOM",
+        "Option3": "Both A and B.",
+        "Option4": "None of the above.",
+        "FinalAns": "2"
+    }
+]
+}

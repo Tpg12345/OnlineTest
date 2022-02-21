@@ -1,0 +1,50 @@
+{
+    "Time":10,
+    "Question":[
+        {
+            "Question":1,
+            "Ques": "Java is a Langauage",
+            "Option1": "Object Oriented",
+            "Option2": "Object Based",
+            "Option3": "Speaking",
+            "Option4": "Pure OOP",
+            "FinalAns": "1"
+        },
+        {
+            "Question":2,
+            "Ques": "Java is a Langauage?",
+            "Option1": "Object Oriented",
+            "Option2": "Object Based",
+            "Option3": "Speaking",
+            "Option4": "Pure OOP",
+            "FinalAns": "5"
+        },
+        {
+        "Question":3,
+            "Ques": "Java is a Langauage||",
+            "Option1": "Object Oriented",
+            "Option2": "Object Based",
+            "Option3": "Speaking",
+            "Option4": "Pure OOP",
+            "FinalAns": "4"
+        },
+        {
+            "Question":4,
+            "Ques": "Java is a Langauage!!",
+            "Option1": "Object Oriented",
+            "Option2": "Object Based",
+            "Option3": "Speaking",
+            "Option4": "Pure OOP",
+            "FinalAns": "3"
+        },
+        {
+            "Question":5,
+            "Ques": "Java is a Langauage..",
+            "Option1": "Object Oriented",
+            "Option2": "Object Based",
+            "Option3": "Speaking",
+            "Option4": "Pure OOP",
+            "FinalAns": "2"
+        }
+    ]
+    }

@@ -1,0 +1,19 @@
+.QuesAns{
+  margin-left: 500px;
+}
+
+.timer{
+    float: right;
+    margin-right: 300px;
+    background-color: rgb(155, 186, 245);
+}
+
+button#previous{
+    margin-right: 60px;;
+}
+button#next{
+    margin-left: 100px;;
+}
+button#submit{
+    margin-left: 100px;;
+}

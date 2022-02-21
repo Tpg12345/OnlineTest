@@ -1,0 +1,50 @@
+{
+    "Time":15,
+    "Question":[
+        {
+            "Question":1,
+            "Ques": "Which of the following acts as the input of a class-based component?",
+            "Option1": "Class",
+            "Option2": "Factory",
+            "Option3": "Render",
+            "Option4": "Props",
+            "FinalAns": "4"
+        },
+        {
+            "Question":2,
+            "Ques": "What is the default port where webpack-server runs?",
+            "Option1": "3000",
+            "Option2": "8080",
+            "Option3": "5000",
+            "Option4": "8082",
+            "FinalAns": "2"
+        },
+        {
+        "Question":3,
+            "Ques": "How many numbers of elements a valid react component can return?",
+            "Option1": "1",
+            "Option2": "2",
+            "Option3": "4",
+            "Option4": "5",
+            "FinalAns": "1"
+        },
+        {
+            "Question":4,
+            "Ques": "Java is a Langauage!!",
+            "Option1": "Object Oriented",
+            "Option2": "Object Based",
+            "Option3": "Speaking",
+            "Option4": "Pure OOP",
+            "FinalAns": "1"
+        },
+        {
+            "Question":5,
+            "Ques": "What is a state in React?",
+            "Option1": "A permanent storage.",
+            "Option2": "Internal storage of the component.",
+            "Option3": "External storage of the component.",
+            "Option4": "None of the above.",
+            "FinalAns": "2"
+        }
+    ]
+    }
