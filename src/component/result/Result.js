@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from 'react-bootstrap/esm/Button';
+import Container from 'react-bootstrap/esm/Container';
 import { Link } from "react-router-dom";
 import { Header } from "../Header";
 
@@ -25,11 +27,30 @@ const Result = (props) => {
     link.download = `${'result'}.json`;
     link.href = url;
     link.click();
-    sessionStorage.clear();
+    // sessionStorage.clear();
   }
   if(counter!=null){
   return (
-    <div>Result: total answer correct {counter} out of 5 <a href='#' onClick={handleSaveToPC}>click here</a> to download result</div>
+    <>
+    <Header />
+    <Container className='border border-primary w-25 mt-5'>
+      <div className='row mt-2'>
+      <div className='fs-1 text-md-center text-success'>
+        Result Here:
+      </div>
+      <div className='fs-1 text-center'>
+        {counter}/5
+      </div>
+      <div className='col-md-3'></div>
+      <div className='col-md-6'>
+      <Button className='btn btn-primary downloadBtn' onClick={handleSaveToPC}>Download Result</Button> 
+      </div>
+      <div className='col-md-3 downloadBtn'>
+        <a href='/'onClick={sessionStorage.clear()}>Retry Test</a>
+        </div>
+      </div>
+    </Container>
+    </>
   )
   }else{
     return(

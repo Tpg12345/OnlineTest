@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card'
 
 export const Header = () => {
   return (
-    <Card >
+    <Card className='alert alert-primary'>
     <Card.Body style={{ textAlign: 'center' }}>
       <Card.Title>Online Test Application</Card.Title>
     </Card.Body>

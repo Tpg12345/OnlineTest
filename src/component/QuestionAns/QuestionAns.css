@@ -4,7 +4,9 @@
 
 .timer{
     float: right;
-    margin-right: 300px;
+    /* margin-right: 300px; */
+    width: 5rem;
+    height: inherit;
     background-color: rgb(155, 186, 245);
 }
 
@@ -17,3 +19,18 @@ button#next{
 button#submit{
     margin-left: 100px;;
 }
+
+.topMargin{
+    margin-top: 1rem;
+}
+.bottomMargin{
+    margin-bottom: 2rem;
+}
+.colMargin{
+    margin-top: "-65px";
+}
+.downloadBtn{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
